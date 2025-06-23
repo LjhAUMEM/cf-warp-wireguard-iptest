@@ -1,4 +1,4 @@
-#Use
+# Use
 ```
 -4 | test with build in ipv4 | default false
 -6 | test with build in ipv6 | default false
@@ -10,15 +10,15 @@
 -mtu | mtu | default 1280
 ```
 
-#Example
+# Example
 ```
 ./warp -6 -result.6.txt
 ```
 
-#Build
+# Build
 check build.md
 
-#Thanks to:
-[peanut996/CloudflareWarpSpeedTest](https://github.com/peanut996/CloudflareWarpSpeedTest)
-[ViRb3/wgcf](https://github.com/ViRb3/wgcf)
-[WireGuard/wireguard-go](https://github.com/WireGuard/wireguard-go)
+# Thanks to:
+- [peanut996/CloudflareWarpSpeedTest](https://github.com/peanut996/CloudflareWarpSpeedTest)
+- [ViRb3/wgcf](https://github.com/ViRb3/wgcf)
+- [WireGuard/wireguard-go](https://github.com/WireGuard/wireguard-go)
