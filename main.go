@@ -354,6 +354,9 @@ func main() {
 	}
 
 	sort.Slice(resultsSlice, func(i, j int) bool {
+		if resultsSlice[i].successes != resultsSlice[j].successes {
+			return resultsSlice[i].successes > resultsSlice[j].successes
+		}
 		return resultsSlice[i].delay < resultsSlice[j].delay
 	})
 
